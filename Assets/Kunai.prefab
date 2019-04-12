@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 966710413511809596}
   - component: {fileID: 7752631318238025976}
   - component: {fileID: 4451162568352291198}
-  - component: {fileID: 489440156223466144}
+  - component: {fileID: 7594183828170824299}
   m_Layer: 0
   m_Name: Kunai
   m_TagString: Untagged
@@ -135,7 +135,7 @@ MonoBehaviour:
   speed: 20
   damage: 40
   rb: {fileID: 966710413511809596}
---- !u!82 &489440156223466144
+--- !u!82 &7594183828170824299
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,7 +147,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cdcbe122245d49b469acc72ce3edca64, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.388
   m_Pitch: 1
   Loop: 0
   Mute: 0

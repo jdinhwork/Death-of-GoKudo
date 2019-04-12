@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Kunai : MonoBehaviour
 {
-
     public float speed = 20f;
     public int damage = 40;
     public Rigidbody2D rb;
@@ -23,5 +22,11 @@ public class Kunai : MonoBehaviour
             enemy.TakeDamage(damage);
         }
         Destroy(gameObject);
+    }
+    void Update()
+    {
+        //rotation
+        float angle = -90;
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
     }
 }

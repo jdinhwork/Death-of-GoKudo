@@ -14,6 +14,7 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject kunaiPrefab;
 
+
     // Start is called before the first frame update
     void Awake ()
     {

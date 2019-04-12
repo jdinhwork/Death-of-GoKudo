@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class KillPlayer : MonoBehaviour
 {
+    public AudioClip DeadClip;
+    public AudioSource DeadSFX;
+
     [SerializeField] Transform spawnPoint;
 
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.transform.CompareTag("Player"))
             col.transform.position = spawnPoint.position;
+            DeadSFX.Play();
     }
 }
