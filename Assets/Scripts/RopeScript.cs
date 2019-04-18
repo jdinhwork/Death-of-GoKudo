@@ -20,7 +20,10 @@ public class RopeScript : MonoBehaviour
     public GameObject lastNode;
 
 
+    public Transform[] points;
+
     public LineRenderer lr;
+   // public LineRenderer lineRenderer;
 
     int vertexCount = 2;
     public List<GameObject> Nodes = new List<GameObject>();
@@ -39,20 +42,21 @@ public class RopeScript : MonoBehaviour
 
         lastNode = transform.gameObject;
 
-
         Nodes.Add(transform.gameObject);
 
-
+        //lineRenderer.numPositions = points.Length;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-
         transform.position = Vector2.MoveTowards(transform.position, destiny, speed);
 
-
+       /* for (int i = 0; i < points.Length; ++i)
+        {
+            lineRenderer.SetPosition(i, points[i].position);
+        }*/
 
 
         if ((Vector2)transform.position != destiny)
@@ -103,6 +107,9 @@ public class RopeScript : MonoBehaviour
         }
 
         lr.SetPosition(i, player.transform.position);
+
+        lr.sortingLayerName = "Player";
+        lr.material = Resources.Load("Sprites-Default", typeof(Material)) as Material;
 
     }
 
