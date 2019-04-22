@@ -47,10 +47,10 @@ TagManager:
     locked: 1
   - name: MidSubBackground
     uniqueID: 1978767563
-    locked: 0
+    locked: 1
   - name: subBackGround
     uniqueID: 1827930331
-    locked: 0
+    locked: 1
   - name: Ground
     uniqueID: 2707387841
     locked: 0

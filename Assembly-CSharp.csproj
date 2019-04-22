@@ -1202,6 +1202,12 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="ConditionalExpression">
+      <HintPath>C:/Users/srmag_000/Desktop/PheonixGaming/Ninja/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>C:/Users/srmag_000/Desktop/PheonixGaming/Ninja/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/srmag_000/Desktop/PheonixGaming/Ninja/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -1216,12 +1222,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Users/srmag_000/Desktop/PheonixGaming/Ninja/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="PlayMaker">
-      <HintPath>C:/Users/srmag_000/Desktop/PheonixGaming/Ninja/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
-    </Reference>
-    <Reference Include="ConditionalExpression">
-      <HintPath>C:/Users/srmag_000/Desktop/PheonixGaming/Ninja/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
