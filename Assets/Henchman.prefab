@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8227285415289065093}
   - component: {fileID: 8227285415289065092}
   - component: {fileID: 8227285415289065115}
-  - component: {fileID: 8227285415289065114}
+  - component: {fileID: 6020662324798982069}
   m_Layer: 9
   m_Name: Henchman
   m_TagString: Untagged
@@ -32,8 +32,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.478, y: 0.078, z: -0.296875}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8227285415869764768}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -885,7 +884,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -919,8 +918,8 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!114 &8227285415289065114
+  eventHandlerComponentsAdded: 1
+--- !u!114 &6020662324798982069
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -929,45 +928,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8227285415289065089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ab5173a1ddb8fb4a8a8bde3da594eeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6908da1fffe56ef42862cbf3128593a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  fireRate: 0
-  Damage: 10
-  notToHit:
-    serializedVersion: 2
-    m_Bits: 512
-  firePoint: {fileID: 8227285415869764768}
-  kunaiPrefab: {fileID: 8316205605261283790, guid: 7af0e439204da8f41a7caf65d4376603,
-    type: 3}
---- !u!1 &8227285415869764769
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8227285415869764768}
-  m_Layer: 9
-  m_Name: FirePoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8227285415869764768
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8227285415869764769}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8227285415289065094}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  health: 100
+  deathEffect: {fileID: 0}

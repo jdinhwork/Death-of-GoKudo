@@ -45,6 +45,4 @@ public class MoveEnemy : MonoBehaviour
         GetComponent<EnemyAttack>().Shoot();
 
     }
-
-
 }
